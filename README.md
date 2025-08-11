@@ -75,7 +75,11 @@ cluster_summary = kmeans_analyzer.run_complete_analysis(
 
 ### 3. Launch Web Application
 
+
 ```bash
+# Make sure you are in the correct directory:
+cd KMeans_Electrofacies_Clustering\KMeansModel
+
 # Run the Streamlit app
 streamlit run streamlit_kmeans_app.py
 ```
